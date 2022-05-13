@@ -4,6 +4,6 @@
 
 [Página do trabalho](https://devworldbr.github.io/guerracanudos/assets/index.html)
 
-<img alt="QRCode" src="./assets/img/frame.svg" width="10%" src="url">
+<img alt="QRCode" src="./assets/img/frame.svg" width="20%" src="url">
 
 ## Feito por Caio G.
