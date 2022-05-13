@@ -4,4 +4,4 @@
 
 [Página do trabalho](https://devworldbr.github.io/guerracanudos/assets/index.html)
 
-![QRCode](./assets/img/frame.svg "QRCODE")
+<img alt="QRCode" src="./assets/img/frame.svg" width="20%" src="url">
