@@ -2,4 +2,6 @@
 
 ## Parte criativa do trabalho
 
-Link do traabalho [https://devworldbr.github.io/guerracanudos/assets/index.html]
+[Página do trabalho](https://devworldbr.github.io/guerracanudos/assets/index.html)
+
+![QRCode](./assets/img/frame.svg)
