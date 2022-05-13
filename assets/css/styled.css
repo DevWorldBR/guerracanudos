@@ -32,8 +32,9 @@ header ul {
   justify-content: center;
   align-items: center;
 
-  margin-right: 16rem;
+  margin-right: 15rem;
 }
+
 
 header ul li {
   width: 100%;
@@ -53,6 +54,10 @@ header ul li {
 
   margin: .6rem;
   padding: .6rem;
+}
+
+.odio {
+  white-space: nowrap;
 }
 
 .link:hover {
