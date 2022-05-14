@@ -1,11 +1,8 @@
-.space {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
+/*
+  ? Header styled
+*/
 
-header {
+.page_header {
   width: 100%;
   height: 6rem;
   background-color: #F1F1F1;
@@ -15,7 +12,7 @@ header {
   align-items: center;
 }
 
-header div {
+.header_span {
   margin-left: 2rem;
   padding: 0.8rem;
 
@@ -27,7 +24,7 @@ header div {
   cursor: default;
 }
 
-header ul {
+.header_nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,13 +32,19 @@ header ul {
   margin-right: 15rem;
 }
 
+.header-nav_ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-header ul li {
+.nav-ul_li {
   width: 100%;
   height: 100%;
 }
 
-.link {
+.ul-li_a {
+  white-space: nowrap;
   color: #000;
 
   font-size: 1rem;
@@ -56,16 +59,16 @@ header ul li {
   padding: .6rem;
 }
 
-.odio {
-  white-space: nowrap;
-}
-
-.link:hover {
+.ul-li_a:hover {
   background-color: #ddd;
   transition: 0.2s ease-out 0.4s;
 }
 
-.body {
+/*
+  ? Page Content styled
+*/
+
+.page_content {
   width: 10rem auto;
   height: 100%;
   margin: 6rem;
@@ -74,12 +77,7 @@ header ul li {
   background-color: #e6e6e6;
 }
 
-.about .img_ {
-  width: 100%;
-  height: 40rem;
-}
-
-.about-area {
+.content_about {
   padding: 1rem;
   margin: 1rem;
 
@@ -88,4 +86,50 @@ header ul li {
   font-weight: 400;
 
   text-align: center;
+}
+
+.content-about_section { /* ... */ }
+
+.content_motivos {
+  padding: 1rem;
+  margin: 1rem;
+
+  font-size: 1.2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+
+  text-align: center;
+}
+
+.content-motivos_section { /* ... */ }
+
+.content_antonio {
+  padding: 1rem;
+  margin: 1rem;
+
+  font-size: 1.2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+
+  text-align: center;
+}
+
+.content-antonio_section { /* ... */ }
+
+/*
+  ? Page Content Extra styled
+*/
+
+.img_ {
+  margin-top: 1rem;
+
+  width: 100%;
+  height: 100%;
+}
+
+.space {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
