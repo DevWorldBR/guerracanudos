@@ -7,5 +7,3 @@
 <img alt="QRCode" src="./assets/img/frame.svg" width="20%" src="url">
 
 ## Feito por Caio G.
-
-[Perfil](https://github.com/DevWorldBR/)
